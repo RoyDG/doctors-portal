@@ -1,11 +1,11 @@
 .header-container {
-  height: 650px;
+  height: 720px;
   position: relative;
   background-image: url("../../../images/chairbg.png");
   background-size: cover;
 }
 .header-container::after {
-  height: 650px;
+  height: 720px;
   content: " ";
   position: absolute;
   top: 0;
