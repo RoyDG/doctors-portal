@@ -32,7 +32,7 @@ const BlogData = [
 const Blog = () => {
     return (
         <section className = "blog my-5 py-5">
-            <div className="section-header text-center ms-5">
+            <div className="section-header text-center">
                 <h5 className="text-info my-3 text-uppercase">
                     OUR BLOG
                 </h5>
