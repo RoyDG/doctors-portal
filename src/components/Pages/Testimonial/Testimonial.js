@@ -30,7 +30,7 @@ const Testimonial = () => {
     return (
         <section className = "testimonial my-5 py-5">
             <div className="section-header ms-5">
-                <h5 className="text-primary my-3 text-uppercase">
+                <h5 className="text-info my-3 text-uppercase">
                     Testimonials
                 </h5>
                 <h1>What's Our Patients <br /> Says</h1>

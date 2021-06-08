@@ -11,7 +11,7 @@ const MakeAppointment = () => {
                         <img src={doctor} alt="doctor" />
                     </div>
                     <div className=" appointment-details col-md-7 py-5 px-5">
-                        <h5 className="text-primary text-uppercase">
+                        <h5 className="text-info text-uppercase">
                             APPOINTMENT
                         </h5>
                         <h1 className="my-4 text-white">

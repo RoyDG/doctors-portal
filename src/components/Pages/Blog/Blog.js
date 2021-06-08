@@ -31,9 +31,9 @@ const BlogData = [
 
 const Blog = () => {
     return (
-        <section className = "testimonial my-5 py-5">
+        <section className = "blog my-5 py-5">
             <div className="section-header text-center ms-5">
-                <h5 className="text-primary my-3 text-uppercase">
+                <h5 className="text-info my-3 text-uppercase">
                     OUR BLOG
                 </h5>
                 <h1>From Our Blog News</h1>

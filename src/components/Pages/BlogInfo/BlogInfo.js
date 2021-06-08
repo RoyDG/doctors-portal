@@ -13,8 +13,7 @@ const BlogInfo = ({blog}) => {
                 </div>
             </div>
             <h5>{blog.title}</h5>
-            <p className="pe-5 text-secondary">{blog.desc}</p>
-            
+            <p className="pe-5 text-secondary">{blog.desc}</p>  
         </div>
     );
 };
