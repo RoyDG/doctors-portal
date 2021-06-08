@@ -14,16 +14,12 @@ const FeaturedService = () => {
                             Exceptional Dental <br /> Care, on Your Terms
                         </h1>
                         <p className="text-secondary my-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque similique praesentium impedit corporis qui minus voluptates cumque sit minima doloribus sint inventore quia saepe ipsa, cupiditate quis architecto labore nostrum?
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos repudiandae mollitia iure fugiat odit cupiditate consequatur quos, culpa recusandae dolore dignissimos nesciunt maxime magni temporibus esse deserunt explicabo magnam totam hic ex! Assumenda repellat numquam animi voluptas quod laboriosam voluptatum sunt ad quaerat unde accusantium tenetur praesentium temporibus nobis quibusdam corporis libero sequi ipsum quisquam iste dolorem, blanditiis earum molestias enim! Provident neque nihil, magnam temporibus molestiae ad, eius ipsa amet delectus error veritatis eveniet maxime facere quidem consectetur. Illo!
                         </p>
                         <button className = "btn btn-info">Learn More</button>
                     </div>
-                </div>
-                
-            </div>
-            
-                
-            
+                </div> 
+            </div>   
         </section>
         
     );
