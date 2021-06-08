@@ -4,7 +4,7 @@ const TestimonialDetails = ({testimonial}) => {
     return (
         <div className= "details-container col-md-4">
             <p className="pe-5">{testimonial.quote}</p>
-            <div className="d-flex mt-5">
+            <div className="d-flex my-5">
                 <div>
                     <img src={testimonial.img} alt="img" />  
                 </div>
