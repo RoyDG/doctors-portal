@@ -18,32 +18,32 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link me-5 active text-danger" aria-current="page" href="#">
+                <a class="nav-link me-5 fw-bold active text-info" aria-current="page" href="#">
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-5 text-danger" href="#">
+                <a class="nav-link me-5 fw-bold text-info" href="#">
                   About
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-5 text-danger" href="#">
+                <a class="nav-link me-5 fw-bold text-info" href="#">
                   Dental Services
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-5 text-danger" href="#">
+                <a class="nav-link me-5 fw-bold text-info" href="#">
                   Reviews
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-5 text-danger" href="#">
+                <a class="nav-link me-5 fw-bold text-info" href="#">
                   Blogs
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-5 text-danger" href="#">
+                <a class="nav-link me-5 fw-bold text-info" href="#">
                   Contact Us
                 </a>
               </li>
