@@ -1,6 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
+import AppointmentForm from '../AppointForm/AppointmentForm';
 
 const BookingCard = ({booking}) => {
+
+const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+    function closeModal() {
+    setIsOpen(false);
+  }
+    
     return (
         <div className= "col-md-4 mb-5">
             <div className="card p-3">
@@ -14,9 +26,11 @@ const BookingCard = ({booking}) => {
                     <p>
                         {booking.totalSpace} SPACES AVAILABLE
                     </p>
-                    <button className="btn btn-info text-uppercase">
+                    <button onClick={openModal} className="btn btn-info text-uppercase">
                         Book Appointment
                     </button>
+                    <AppointmentForm modalIsOpen={modalIsOpen}
+                                    closeModal={closeModal}/>
                 </div>
             </div>
             
