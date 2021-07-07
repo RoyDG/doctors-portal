@@ -1,5 +1,8 @@
 import React from 'react';
 import chair from '../../../images/chair.png'
+import { 
+  Link
+} from "react-router-dom";
 
 const HeaderMain = () => {
     return (
@@ -9,9 +12,11 @@ const HeaderMain = () => {
                 <p className="text-secondary">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam earum vitae officiis saepe, in nam labore fugiat adipisci itaque corporis voluptate nostrum asperiores, eveniet dolores?
                 </p>
-                <button className="btn btn-info">
+                <Link to="/appointment">
+                    <button className="btn btn-info">
                         GET APPOINTMENT
                 </button>
+                </Link>
             </div>
             <div className="div col-md-6">
                 <img src={chair} alt="chair" className="img-fluid" />

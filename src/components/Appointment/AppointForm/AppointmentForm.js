@@ -18,7 +18,10 @@ Modal.setAppElement('#root');
 const AppointmentForm = ({modalIsOpen, closeModal, appointmentOn, date}) => {
 
     const { register, handleSubmit, formState: { errors }} = useForm();
-    const onSubmit = data => console.log(data);
+    const onSubmit = data => {
+        console.log(data);
+        closeModal();
+    };
 
     return (
         <div>
@@ -32,6 +35,9 @@ const AppointmentForm = ({modalIsOpen, closeModal, appointmentOn, date}) => {
                 <h2 className = "text-center text-info">
                     {appointmentOn}
                 </h2>
+                <p className="text-center text-secondary">
+                    <small>ON {date.toDateString()}</small>
+                </p>
             
                 <form className="p-5" onSubmit={handleSubmit(onSubmit)}>
                     <div className="form-group mb-3">
