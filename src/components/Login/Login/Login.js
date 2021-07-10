@@ -42,7 +42,7 @@ const Login = () => {
           </div>
           <div className="from-group mt-5">
             <button className="btn btn-info me-3">Sign in</button>
-            <button type="button"  onClick={handleGoogleSignIn} class="btn btn-outline-secondary">Sign in with Google</button>
+            <button type="button" class="btn btn-link text-secondary"  onClick={handleGoogleSignIn} >Sign in with Google</button>
           </div>
         </div>
         <div className="col-md-6 d-none d-md-block align-self-end">
